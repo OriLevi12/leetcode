@@ -6,4 +6,4 @@ This repository contains Java solutions to selected LeetCode problems.
 
 | #   | Title                                     | Level    | Solution File                                         | Approaches                     |
 |-----|-------------------------------------------|----------|-------------------------------------------------------|-------------------------------|
-| 3   | Longest Substring Without Repeating Chars | 🟡 Medium | [0003_LongestSubstringWithoutRepeating.java](java/0003_LongestSubstringWithoutRepeating.java) |Sliding widndow, HashMap, HashSet              |
+| 3   | Longest Substring Without Repeating Chars | 🟡 Medium | [0003_LongestSubstringWithoutRepeating.java](java/0003_LongestSubstringWithoutRepeating.java) |Sliding window, HashMap, HashSet              |
