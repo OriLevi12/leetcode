@@ -8,6 +8,7 @@ This repository contains Java solutions to selected LeetCode problems.
 |-----|-------------------------------------------|----------|-------------------------------------------------------|-------------------------------|
 | 1   | Two Sum                                   | 🟢 Easy   | [0001_TwoSum.java](java/0001_TwoSum.java)             | HashMap (2 versions)          |
 | 3   | Longest Substring Without Repeating Chars | 🟡 Medium | [0003_LongestSubstringWithoutRepeating.java](java/0003_LongestSubstringWithoutRepeating.java) | Sliding Window, HashMap, HashSet |
+| 20  | Valid Parentheses                         | 🟢 Easy   | [0020_ValidParentheses.java](java/0020_ValidParentheses.java) | Stack, HashMap               |
 | 200 | Number of Islands                         | 🟡 Medium | [0200_NumberOfIslands.java](java/0200_NumberOfIslands.java) | DFS (recursive)              |
 
 ---
@@ -19,20 +20,24 @@ This repository contains Java solutions to selected LeetCode problems.
 
 ---
 
+## 🧩 Problem 20: Valid Parentheses – Approach
+
+Uses `Stack` for tracking opening brackets and `HashMap` to match closing brackets.
+
+- Push opening brackets to stack.
+- For closing brackets, check if they match the top.
+- If stack is empty at the end → valid.
+
+⏱ O(n) time, O(n) space.
+
+---
+
 ## 🧩 Problem 200: Number of Islands – Approach
 
-Solved using **Depth-First Search (DFS)** with recursion.
+Uses recursive DFS to mark visited land.
 
-- ✅ Each time we find a `'1'`, we perform DFS to mark the entire island.
-- ✅ We mark visited cells by changing `'1'` to `'0'` directly in the grid.
-- ✅ We avoid using extra memory (like a visited matrix).
+- For each `'1'`, run DFS and mark as `'0'`.
+- Counts total number of islands.
 
-### 🔍 Time and Space Complexity
-
-- **Time:** O(rows × cols) — we potentially visit every cell once.
-- **Space:** O(rows × cols) in the worst case — due to the call stack depth if the entire grid is land.
-
-### 🧠 Notes
-
-- This is a classic grid traversal problem.
-- BFS is also possible, but DFS is shorter and cleaner to implement recursively.
+⏱ O(rows × cols) time,  
+🧠 Worst-case space: O(rows × cols) due to recursion depth.
