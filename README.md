@@ -9,7 +9,7 @@ This repository contains Java solutions to selected LeetCode problems.
 | 1   | Two Sum                                   | 🟢 Easy   | [0001_TwoSum.java](java/0001_TwoSum.java)             | HashMap (2 versions)          |
 | 3   | Longest Substring Without Repeating Chars | 🟡 Medium | [0003_LongestSubstringWithoutRepeating.java](java/0003_LongestSubstringWithoutRepeating.java) | Sliding Window, HashMap, HashSet |
 | 20  | Valid Parentheses                         | 🟢 Easy   | [0020_ValidParentheses.java](java/0020_ValidParentheses.java) | Stack, HashMap               |
-| 49  | Group Anagrams                            | 🟡 Medium | [0049_GroupAnagrams.java](java/0049_GroupAnagrams.java) | HashMap, Char Sorting        |
+| 49  | Group Anagrams                            | 🟡 Medium | [0049_GroupAnagrams.java](java/0049_groupAnagrams.java) | HashMap, Char Sorting        |
 | 200 | Number of Islands                         | 🟡 Medium | [0200_NumberOfIslands.java](java/0200_NumberOfIslands.java) | DFS (recursive)              |
 
 ---
