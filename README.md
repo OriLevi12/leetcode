@@ -8,9 +8,22 @@ This repository contains Java solutions to selected LeetCode problems.
 |-----|-------------------------------------------|----------|-------------------------------------------------------|-------------------------------|
 | 1   | Two Sum                                   | 🟢 Easy   | [0001_TwoSum.java](java/0001_TwoSum.java)             | HashMap (2 versions)          |
 | 3   | Longest Substring Without Repeating Chars | 🟡 Medium | [0003_LongestSubstringWithoutRepeating.java](java/0003_LongestSubstringWithoutRepeating.java) | Sliding Window, HashMap, HashSet |
-| 20  | Valid Parentheses                         | 🟢 Easy   | [0020_ValidParentheses.java](java/0020_ValidParentheses.java) | Stack, HashMap               |
+| 20  | Valid Parentheses                         | 🟢 Easy   | [0020_ValidParentheses.java](java/0020_ValidParentheses.java) | Stack, HashMap              |
+| 42  | Trapping Rain Water                       | 🔴 Hard   | [0042_TrappingRainWater.java](java/0042_TrappingRainWater.java) | Two Pointers                  |
 | 49  | Group Anagrams                            | 🟡 Medium | [0049_GroupAnagrams.java](java/0049_groupAnagrams.java) | HashMap, Char Sorting        |
 | 200 | Number of Islands                         | 🟡 Medium | [0200_NumberOfIslands.java](java/0200_NumberOfIslands.java) | DFS (recursive)              |
+
+---
+
+## 🧩 Problem 42: Trapping Rain Water – Approach
+
+Uses the **Two Pointers** technique to efficiently compute trapped water.
+
+- Initialize two pointers at the ends of the array.
+- Move inward from the side with the lower bar.
+- At each step, calculate how much water can be trapped if the current bar is lower than the highest bar seen so far from that side.
+- Time: ⏱ O(n)  
+- Space: 📦 O(1)
 
 ---
 
