@@ -12,6 +12,7 @@ This repository contains **Java** and **Python** solutions to selected LeetCode 
 | 3     | Longest Substring Without Repeating Chars | 🟡 Medium | [0003_LongestSubstringWithoutRepeating.java](java/0003_LongestSubstringWithoutRepeating.java) |                                                                      | Sliding Window, HashMap, HashSet        |
 | 15    | 3Sum                                      | 🟡 Medium | [0015_3Sum.java](java/0015_3Sum.java)                             | [0015_3Sum.py](python/0015_3Sum.py)                                 | Sorting + Two Pointers                  |
 | 20    | Valid Parentheses                         | 🟢 Easy   | [0020_ValidParentheses.java](java/0020_ValidParentheses.java)     |                                                                      | Stack, HashMap                          |
+| 21    | Merge Two Sorted Lists                    | 🟢 Easy   | [0021_MergeTwoSortedLists.java](java/0021_MergeTwoSortedLists.java) | [0021_MergeTwoSortedLists.py](python/0021_MergeTwoSortedLists.py)   | Linked List, Two Pointers, Dummy Head   |
 | 42    | Trapping Rain Water                       | 🔴 Hard   | [0042_TrappingRainWater.java](java/0042_TrappingRainWater.java)   |                                                                      | Two Pointers                            |
 | 49    | Group Anagrams                            | 🟡 Medium | [0049_GroupAnagrams.java](java/0049_groupAnagrams.java)           |                                                                      | HashMap, Char Sorting                   |
 | 121   | Best Time to Buy and Sell Stock           | 🟢 Easy   | [0121_BestTimeToBuyAndSellStock.java](java/0121_BestTimeToBuyAndSellStock.java) | [0121_BestTimeToBuyAndSellStock.py](python/0121_BestTimeToBuyAndSellStock.py) | Single Pass, Min Price Tracking         |
@@ -130,3 +131,13 @@ This repository contains **Java** and **Python** solutions to selected LeetCode 
 **Complexity:**  
 - ⏱ Time: O(rows × cols)  
 - 📦 Space: O(rows × cols) recursion stack (worst-case)
+
+---
+
+## 🧩 Problem 21: Merge Two Sorted Lists – Approach
+
+**Approach:** Linked List, Two Pointers + Dummy Head  
+
+**Complexity:**  
+- ⏱ Time: O(n + m) — each node is processed once.  
+- 📦 Space: O(1) — merge is done in-place using existing nodes.
