@@ -14,6 +14,7 @@ This repository contains **Java** and **Python** solutions to selected LeetCode 
 | 20    | Valid Parentheses                         | 🟢 Easy   | [0020_ValidParentheses.java](java/0020_ValidParentheses.java)     |                                                                      | Stack, HashMap                          |
 | 21    | Merge Two Sorted Lists                    | 🟢 Easy   | [0021_MergeTwoSortedLists.java](java/0021_MergeTwoSortedLists.java) | [0021_MergeTwoSortedLists.py](python/0021_MergeTwoSortedLists.py)   | Linked List, Two Pointers, Dummy Head   |
 | 23    | Merge k Sorted Lists                      | 🔴 Hard   | [0023_MergeKSortedLists.java](java/0023_MergeKSortedLists.java)   | [0023_MergeKSortedLists.py](python/0023_MergeKSortedLists.py)       | Min Heap (PriorityQueue)                |
+| 33    | Search in Rotated Sorted Array            | 🟡 Medium | [0033_SearchInRotatedSortedArray.java](java/0033_SearchInRotatedSortedArray.java) | [0033_SearchInRotatedSortedArray.py](python/0033_SearchInRotatedSortedArray.py) | Binary Search (check sorted half)       |
 | 42    | Trapping Rain Water                       | 🔴 Hard   | [0042_TrappingRainWater.java](java/0042_TrappingRainWater.java)   |                                                                      | Two Pointers                            |
 | 49    | Group Anagrams                            | 🟡 Medium | [0049_GroupAnagrams.java](java/0049_groupAnagrams.java)           |                                                                      | HashMap, Char Sorting                   |
 | 121   | Best Time to Buy and Sell Stock           | 🟢 Easy   | [0121_BestTimeToBuyAndSellStock.java](java/0121_BestTimeToBuyAndSellStock.java) | [0121_BestTimeToBuyAndSellStock.py](python/0121_BestTimeToBuyAndSellStock.py) | Single Pass, Min Price Tracking         |
@@ -78,6 +79,17 @@ This repository contains **Java** and **Python** solutions to selected LeetCode 
 **Complexity:**  
 - ⏱ Time: O(N log k), where N = total nodes and k = number of lists  
 - 📦 Space: O(k) for the heap
+
+---
+
+## 🧩 Problem 33: Search in Rotated Sorted Array – Approach
+
+**Approach:** Binary Search with “which half is sorted” check  
+- At each step, one half (left or right) is guaranteed sorted.  
+- Decide if target lies in the sorted half → shrink search range accordingly.  
+**Complexity:**  
+- ⏱ Time: O(log n)  
+- 📦 Space: O(1)
 
 ---
 
