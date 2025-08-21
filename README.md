@@ -17,6 +17,7 @@ This repository contains **Java** and **Python** solutions to selected LeetCode 
 | 33    | Search in Rotated Sorted Array            | 🟡 Medium | [0033_SearchInRotatedSortedArray.java](java/0033_SearchInRotatedSortedArray.java) | [0033_SearchInRotatedSortedArray.py](python/0033_SearchInRotatedSortedArray.py) | Binary Search (check sorted half)       |
 | 42    | Trapping Rain Water                       | 🔴 Hard   | [0042_TrappingRainWater.java](java/0042_TrappingRainWater.java)   |                                                                      | Two Pointers                            |
 | 49    | Group Anagrams                            | 🟡 Medium | [0049_GroupAnagrams.java](java/0049_groupAnagrams.java)           |                                                                      | HashMap, Char Sorting                   |
+| 91    | Decode Ways                               | 🟡 Medium | [0091_DecodeWays.java](java/0091_DecodeWays.java)                 | [0091_DecodeWays.py](python/0091_DecodeWays.py)                     | Dynamic Programming (DP Array + Rolling)|
 | 121   | Best Time to Buy and Sell Stock           | 🟢 Easy   | [0121_BestTimeToBuyAndSellStock.java](java/0121_BestTimeToBuyAndSellStock.java) | [0121_BestTimeToBuyAndSellStock.py](python/0121_BestTimeToBuyAndSellStock.py) | Single Pass, Min Price Tracking         |
 | 128   | Longest Consecutive Sequence              | 🟡 Medium | [0128_LongestConsecutiveSequence.java](java/0128_LongestConsecutiveSequence.java) | [0128_LongestConsecutiveSequence.py](python/0128_LongestConsecutiveSequence.py) | HashSet, Start-of-Run Check             |
 | 200   | Number of Islands                         | 🟡 Medium | [0200_NumberOfIslands.java](java/0200_NumberOfIslands.java)       |                                                                      | DFS (recursive)                         |
@@ -108,6 +109,15 @@ This repository contains **Java** and **Python** solutions to selected LeetCode 
 **Complexity:**  
 - ⏱ Time: O(n × k log k)  
 - 📦 Space: O(n × k)
+
+---
+
+## 🧩 Problem 91: Decode Ways – Approach
+
+**Approach:** Dynamic Programming  
+**Complexity:**  
+- ⏱ Time: O(n)  
+- 📦 Space: O(n) or O(1) with rolling variables
 
 ---
 
